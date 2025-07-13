@@ -1,0 +1,26 @@
+camera_matrix:
+  cols: 3
+  data:
+  - 497.9658904630433
+  - 0.0
+  - 326.5828888500195
+  - 0.0
+  - 499.24094090158167
+  - 220.51384581989916
+  - 0.0
+  - 0.0
+  - 1.0
+  rows: 3
+camera_name: my_ip_camera
+distortion_coefficients:
+  cols: 5
+  data:
+  - 0.07904538276852582
+  - -0.23255905272343474
+  - -0.0012136279526216173
+  - -0.001085827859805427
+  - 0.07655808699660585
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
