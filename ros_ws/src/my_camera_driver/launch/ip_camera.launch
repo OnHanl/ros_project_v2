@@ -1,0 +1,9 @@
+<launch>
+  <!-- Передаём IP телефона как аргумент -->
+  <arg name="phone_ip" default="192.168.100.6" />
+
+  <!-- Передаём IP в ноду -->
+  <node name="ip_camera_publisher" pkg="my_camera_driver" type="ip_camera_publisher.py" output="screen">
+    <param name="phone_ip" value="$(arg phone_ip)" />
+  </node>
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+  <arg name="camera_url" default="http://192.168.100.229:8080/video" />
+  <arg name="sensor_url" default="http://192.168.100.229:8081/sensors.json" />
+
+  <param name="camera_url" value="$(arg camera_url)" />
+  <param name="sensor_url" value="$(arg sensor_url)" />
+
+  <node name="camera_overlay_node" pkg="my_camera_driver" type="camera_overlay_node.py" output="screen">
+    <param name="camera_url" value="$(arg camera_url)" />
+    <param name="sensor_url" value="$(arg sensor_url)" />
+  </node>
+</launch>

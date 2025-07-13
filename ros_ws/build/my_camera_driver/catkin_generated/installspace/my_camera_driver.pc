@@ -1,0 +1,8 @@
+prefix=/root/ros_ws/install
+
+Name: my_camera_driver
+Description: Description of my_camera_driver
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_camera_driver</name>
+  <version>0.0.1</version>
+  <description>Simple ROS node to stream video from an IP camera</description>
+
+  <maintainer email="belyeva_ev_24@mf.grsu.by">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <export>
+  </export>
+</package>
